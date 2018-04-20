@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="portfolio.css">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather|Raleway" rel="stylesheet">
+</head>
+
+<body>
+    <h1>Jackson McGlasson</h1>
+    <div id="nav-bar">
+        <a href="index.html">Home</a>
+        <a href="page2.html">App Academy</a>
+        <a href="page3.html">Other Classes</a>
+        <a href="page4.html">Activities</a>
+    </div>
+    <h2>No Balls to the Walls</h2>
+    <div class="container">
+        <div class="column">
+            <img src="images/balls.jpg"></img>
+
+        </div>
+        <div class="column" id="col-1">
+            <p class="p1">This project is a game made using p5.js. It uses a drawing program that creates sprites and shapes on screen. The aim of the game is to stay alive as long as possible by avoiding having your square collide with the walls. You can change direction with WASD to make it move up, left, down, and right. I choose this idea because it is a simple yet, entertaining concept for a game. For this project I liked working on how to factor in the velocities of the squares into a proper gameplay.</p>
+        </div>
+        <div class="column">
+            <img src="images/balls2.jpg"></img>
+
+        </div>
+    </div>
+    <p class="add">Controls:
+        <br>W- Move Up
+        <br> A- Move Left
+        <br> S- Move Down
+        <br> D- Move Right
+        <br> Enter- Start
+        <!--<br> P- Pause-->
+        <br> R- Reset</p>
+
+    <p id="score" class="add">Score: </p>
+
+    <script src="p5.min.js"></script>
+    <script src="page2.js"></script>
+</body>
+
+</html>
