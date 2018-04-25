@@ -17,6 +17,10 @@ body {
     margin: 20px;
 }
 
+.gallery {
+    width: 20%;
+}
+
 #col-1 {
     flex: 2;
     background-color: white;
