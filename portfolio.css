@@ -1,7 +1,7 @@
 body {
     font-family: 'Merriweather', serif;
     margin: 0px;
-    padding: 0px
+    padding: 0px;
 }
 
 #game {
@@ -19,6 +19,7 @@ body {
 
 .gallery {
     width: 20%;
+    margin-left: 5px;
 }
 
 #col-1 {
