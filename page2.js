@@ -87,6 +87,13 @@ function draw() {
         text("Press R to Reset", 50, 150);
 
     }
+    if (velocityX == 0 && velocityY == 0 && x == 100) {
+        textSize(25);
+        fill(255)
+
+        text("Press Enter to Start", 50, 50);
+
+    }
 
 
     var scoreDisplay = score.toString()
@@ -127,6 +134,8 @@ function keyPressed() {
         velocityY = 0
         velocityX = 0
         score = 0
+
+
 
     }
     if (keyCode === 13) {
